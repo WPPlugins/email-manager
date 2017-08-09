@@ -1,0 +1,188 @@
+.wpem-source-div{
+border: 1px solid rgb(221, 221, 221); 
+border-radius: 4px;
+background-image: none, linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 0px, rgba(255, 255, 255, 0) 100%);
+margin: 2em 0px;
+padding: 1em 2em 2em;
+}
+.nf-mail-schedule  input.regular-text{padding:6px}
+.nf-radio > label{margin-right:1em}
+.nf-mail-schedule  .options-group p{
+margin-bottom:10px;
+}
+
+input:not([type="button"]), select, textarea {
+    background-color: #fff;
+    border-radius: 3px;
+    color: #000;
+    padding: 4px;
+}
+
+.wpem_remove_repeatable {
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    margin: 8px 0 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 10px;
+}
+
+.form-table .widefat td, .form-table .widefat th {
+    padding: 8px 10px;
+}
+.nf-radio li {
+    float: left;
+    margin-right: 1em;
+}
+.wpem_default_source > select {
+    min-width: 200px;
+}
+.wpem_default_source {
+    margin: 1em 0 0.5em;
+}
+.wpem_icons :before {
+    font: 400 20px/1 dashicons;
+    display: inline-block;
+    padding: 0px 4px 0px 0px;
+    top: 0px;
+    left: -1px;
+    position: relative;
+    vertical-align: middle;
+    text-decoration: none !important;
+	color: #888;
+}
+.wpem_icons #start_date:before ,.wpem_icons #end_date:before {
+    content: '\f145';
+    top: -1px;
+}
+.wpem_icons #from_name:before{
+   content: "\f338";
+}
+.wpem_icons #from_email:before{
+content: "\f465";
+}
+.wpem_icons #duration:before{
+content: "\f469";
+}
+.wpem_icons #frequency:before{
+content: "\f183";
+}
+.wpem_icons #tools:before{
+content: "\f107";
+float:left;
+margin-right: 0.5em;
+font-size:10em;
+}
+
+.wpem_icons #browser_preview:before{
+content:'\f242';
+vertical-align: top;
+}
+div.wpem-roles span span {
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-decoration: none;
+	padding: 4px;
+	margin: 3px;
+	cursor: hand;
+	cursor: pointer;
+	float:left;
+	-webkit-border-radius: .2em;
+	-moz-border-radius: .2em;
+	border-radius: .2em;
+}
+
+div.wpem-roles span.active {
+	background: #99cc33;
+	color: #fff;
+	border: 1px #66aa00 solid;
+}
+div.wpem-roles span.active:hover {
+	background: #66aa00;
+	color: #fff;
+	border: 1px #338800 solid;
+}
+
+div.wpem-roles span.inactive {
+	background: #ddd;
+	color: #888;
+	border: 1px #bbb solid;
+}
+div.wpem-roles span.inactive:hover {
+	background: #bbb;
+	color: #fff;
+	border: 1px #888 solid;
+}
+.wpem-roles {
+    display: inline-block;
+    margin-top: 0.5em;
+}
+.error.ui-state-highlight{
+    display: inline-block;
+    padding: 0.5em;
+	line-height:1;
+	margin:0;
+}
+.manage-column.column-status,.manage-column.column-interval {
+    width: 10%;
+}
+.manage-column.column-next_send {
+    width: 20%;
+}
+.wpem-hide{display:none}
+.data-source.disabled label {
+    color: #888;
+}
+/* Dashboard
+    -------------------------------------------------- */
+.about-wrap h3 {
+	line-height: 26px;
+}
+.about-wrap .feature-section {
+		margin-top: 0px;
+}
+.about-wrap .feature-section div {
+	text-align: center;
+}
+
+.about-text.wpem-welcome {
+	margin: 1em 0;
+}
+
+.about-wrap .feature-section.three-col img.wpem-donate {
+	background: none;
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	max-width: none;
+	float: none;
+}
+
+
+.images-stagger-right img {
+	float: right;
+	padding-left: 20px;
+}
+
+.images-stagger-left img {
+	float: left;
+	padding-right: 20px;
+}
+
+.wpem-follow {
+	margin-bottom: 11px;
+}
+
+.button-primary.dashboard-buttons, .button.dashboard-buttons {
+	margin-top: 9px;
+}
+.button-secondary.wpem-help {
+    font-family: 'georgia';
+    font-size: 20px;
+    height: 51px;
+    line-height: 25px;
+    padding-top: 11px;
+    white-space: normal;
+    width: 95%;
+}
